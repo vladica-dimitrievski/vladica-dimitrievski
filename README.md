@@ -53,7 +53,55 @@ while(cash==count)
        for(employee of employees)
           if(employee==F)
           sendemail=Happy day of March 
-          
+----------------------------------------
+INPUT C
+switch(C)
+caseC<0
+   print"skafander"
+caseC>=0&C&<=15
+   print"dzemper"
+caseC>=15&C<25
+   print"majica so dolgi"
+caseC>=25
+   print"majica so kratki"
+Default:
+primt"nepravilen format"
+---------------------------------------
+input TeamA="Bayern"
+input TeamB="Dortmund"
+input GoalsA=5
+input GoalsB=1
+Winner=null
+goaldifference=0
+if(GoalsA>GoalsB)then
+  Winner=TeamA
+  goaldifference=GoalsA-GoalsB
+else if(GoalsA<GoalsB)then
+  Winner=TeamB
+else
+  Winner="Draw"
+  if winner !="draw"
+ output winner won with GoalDifference
+ else 
+match has no winner
+-----------------------------------------
+        22h 21h   20h  20h
+shops=[H%M,ZARA,TINEX,NIKE]
+input hour
+openShops=[H&M] addidas,Nike
+   for(closingtime of shops)
+      if(ClosingTime>hour)
+      add openshops
+      OUTPUT open shops
+-------------------------------------------
+users=[120,125,191,161,175]
+isOrdered=true
+  for(i=0;i<usersLength,i++)
+      ifusers[i]>users[i+1]
+        Temp=users[i]
+        users[i]=users[i+1]
+        users[i+1]=Temp
+  
      
 
 
